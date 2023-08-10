@@ -593,6 +593,12 @@ img {
   font-weight: var(--fw-bold);
 }
 
+.backToProjects__btn {
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 360px) {
   .project__links {
     flex-direction: column;
@@ -605,6 +611,7 @@ img {
   .section__projects {
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: -6em;
   }
   .project__container {
     display: grid;
