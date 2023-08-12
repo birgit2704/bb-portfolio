@@ -49,9 +49,11 @@ tl.from(".intro", { opacity: 0 });
 
 const backToTopBtn = document.getElementById("back-to-top");
 
-window.onscroll = function () {
-  scrollFunction();
-};
+if (backToTopBtn) {
+  window.onscroll = function () {
+    scrollFunction();
+  };
+}
 
 function scrollFunction() {
   if (
